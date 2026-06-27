@@ -29,7 +29,7 @@ import au.com.dius.pact.provider.junitsupport.loader.SelectorBuilder;
         providerTags = "main",
         includeWipPactsSince = "2026-06-26"
 )
-public class omsProviderVerification {
+public class OmsProviderVerification {
     @RegisterExtension
     private static final WireMockExtension wireMock =
             WireMockExtension.newInstance()
